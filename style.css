@@ -1,0 +1,55 @@
+.theme{
+text-align: center;
+
+    background-color: #78dee7;
+}
+.top{
+background-color: #55bffe;
+
+}
+.middle{
+background-color: limegreen;   
+
+
+}
+
+
+.bottom{ 
+}
+.header{
+    text-align:center;
+    font-size: 37px;
+}
+
+.smallText{
+    text-align:center; 
+    background-color: black;
+    color: white;  
+}
+
+.grad2 {
+    height: 100px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(90deg, rgb(0, 229, 255), rgb(72, 255, 0)); /* Standard syntax (must be last) */
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+
+/* The element to apply the animation to */
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+
+
+
+
